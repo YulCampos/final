@@ -1,0 +1,151 @@
+:root{
+    --primary-color: rgba(250, 140, 15, 0.918) ;
+    --secondary-color: rgb(52, 163, 37);
+}
+*{
+    margin: 0;  
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;  
+}
+
+/*Estilos del header*/
+header{
+  background-image: url('imagenes/header.jpg');
+  background-size: cover;
+  height: 80vh;
+  color: white;
+}
+h1{
+    position: relative;
+    top: 20px;
+    margin-left:20px;
+}
+nav{
+    position: absolute;
+    right: 80px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin:5px;
+}
+header>div{
+    position: absolute;
+    top: 600px;
+    margin: 10px;
+}
+header>div>p{
+    margin: 20px;
+    font-size: 150%;
+}
+/*Estilos del main*/
+main{
+    margin: 0 40px;
+    align-items: center;
+}
+main>div{
+   
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding:25px;
+    margin:auto;
+    width: 90%;
+}
+h3{
+    text-align: center;
+    margin: 20px 0;
+}
+article{
+    padding: 10px;
+}
+article>p{
+   margin: 15px 0;
+}
+article>i{
+    font-size: 300%;
+    color:rgba(250, 140, 15, 0.918);
+    margin: 20px;
+}
+.anuncio{
+    margin: 0 5px;
+    background-color: rgba(185, 185, 185, 0.493);
+    
+}
+.imagen{
+    margin-bottom:10px;
+}
+.imagen>img{
+    height: 300px;
+    width: 100%;
+}
+/* .imagenes{
+    background-image: url("imagenes/casa1.jpg");
+    background-size: cover;
+    height: 300px;
+} */
+.texto{
+    text-align: left;
+}
+h4{
+    margin: 10px;
+    
+}
+.info{
+    font-size: 80%;
+    margin:15px;
+}
+.texto>div{
+    text-align: center;
+}
+art{
+    color:var(--secondary-color);
+    margin: 10px;
+}
+.iconos>i{
+    font-size: 130%;
+    margin: 10px 20px;
+}
+
+button{
+    border:0;
+    width: 90%;
+    height: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    
+}
+#todo{
+    background-color: var(--secondary-color);
+    margin:0px;
+    width: 100px;
+
+}
+/*estilo del footer*/
+#foot{
+    margin-top: 30px;
+    background-image: url('imagenes/footer.jpg');
+    background-size: cover;
+    height:40vh;
+    color:white;
+}
+#formulario> button{
+    bottom: 20px;
+    width: 20%;
+    margin-top: 30px;
+}
+h2{
+    margin:30px 0 30px 0;
+}
+#formulario{
+    position: absolute;
+    margin:150px 50px;
+}
+section{
+    background-color: rgb(58, 58, 58);
+    height: 4vh;
+    margin:0px;
+}
+
